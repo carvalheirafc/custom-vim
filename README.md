@@ -1,3 +1,4 @@
 # custom-vim
 Just a custom .vimrc and some plugins folders
-Always remember the vimtutor command =)
+
+#  How to use/learn Vim ? type vimtutor on you terminal =)
