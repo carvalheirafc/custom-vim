@@ -22,6 +22,7 @@ set foldenable
 set foldlevelstart=10
 set foldnestmax=10
 set foldmethod=indent
+colorscheme focuspoint
 
 noremap <space> za
 nnoremap B ^
@@ -31,6 +32,7 @@ call plug#begin ('~/.vim/plugged')
 Plug 'embear/vim-localvimrc'
 Plug 'kchmck/vim-coffee-script'
 Plug 'scrooloose/nerdtree'
+Plug 'https://github.com/rafi/awesome-vim-colorschemes.git'
 
 call plug#end()
 
