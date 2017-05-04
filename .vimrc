@@ -9,7 +9,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'https://github.com/rafi/awesome-vim-colorschemes.git'
 Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
-Plugin 'file:///home/gmarik/path/to/plugin'
+##Plugin 'file:///home/gmarik/path/to/plugin'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 call vundle#end()            " required
