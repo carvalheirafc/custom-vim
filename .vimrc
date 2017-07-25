@@ -10,7 +10,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'tomasr/molokai'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 call vundle#end()            " required
@@ -45,6 +44,10 @@ noremap <space> za
 nnoremap B ^
 nnoremap E $
 inoremap jk <esc>
+noremap qw :bnext<CR>
+noremap wq :bprevious<CR>
 
+let g:Airline_theme='badcat'
+let g:airline#extensions#tabline#enabled = 1
 
 
