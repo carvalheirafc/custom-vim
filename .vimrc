@@ -6,10 +6,10 @@ call vundle#begin()
 
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'https://github.com/rafi/awesome-vim-colorschemes.git'
 Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
-Plugin 'https://github.com/vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
 call vundle#end()            " required
