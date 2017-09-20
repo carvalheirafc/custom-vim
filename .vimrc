@@ -46,6 +46,10 @@ nnoremap E $
 inoremap jk <esc>
 noremap qw :bnext<CR>
 noremap wq :bprevious<CR>
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
 
 let g:Airline_theme='badcat'
 let g:airline#extensions#tabline#enabled = 1
