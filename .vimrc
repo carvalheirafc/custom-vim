@@ -14,6 +14,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+colorscheme default
 syntax enable 
 set hidden 
 set history=100
