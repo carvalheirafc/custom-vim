@@ -10,6 +10,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'mattn/emmet-vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
