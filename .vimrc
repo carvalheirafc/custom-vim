@@ -54,5 +54,4 @@ nnoremap <C-k> <C-w>k
 
 let g:Airline_theme='badcat'
 let g:airline#extensions#tabline#enabled = 1
-
-
+let g:user_emmet_leader_key=','
